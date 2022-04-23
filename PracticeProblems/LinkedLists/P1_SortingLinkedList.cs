@@ -7,7 +7,6 @@
 public class P1_SortingLinkedList
 {
 
-
     #region Solution
 
     public class Node
@@ -33,6 +32,11 @@ public class P1_SortingLinkedList
         public Node? Next;
     }
 
+    /// <summary>
+    /// n is the len(a) + len(b)
+    /// <br />Time: O(n)
+    /// <br />Space: O(1)
+    /// </summary>
     public static Node? Solution(Node? a, Node? b)
     {
         // check for nulls

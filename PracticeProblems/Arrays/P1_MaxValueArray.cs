@@ -6,12 +6,13 @@
 /// </summary>
 public class P1_MaxValueArray
 {
+
     #region Solution
 
     /// <summary>
     /// n is the length of the array
-    /// Time: O(n)
-    /// Space: O(1)
+    /// <br />Time: O(n)
+    /// <br />Space: O(1)
     /// </summary>
     public static int? Solution(int[] numbers)
     {
