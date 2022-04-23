@@ -2,7 +2,7 @@
 using System.Linq;
 using static PracticeProblems.LinkedLists.P1_SortingLinkedList;
 
-namespace SolutionTests.LinkedLists.Tests;
+namespace PracticeProblems.LinkedLists.Tests;
 
 [TestClass]
 public class P1_SortingLinkedListTests
@@ -15,20 +15,20 @@ public class P1_SortingLinkedListTests
     [DataRow(3, 3, 3, 13, 1, 3, 7)]
     public void SolutionTests(int nodeASize, params int[] ints)
     {
-        Node? a = null;
-        Node? b = null;
+        Node<int>? a = null;
+        Node<int>? b = null;
 
         if (nodeASize > 0)
-            a = new Node(ints[0..nodeASize]);
+            a = new Node<int>(ints[0..nodeASize]);
 
         if (ints.Length - nodeASize > 0)
-            b = new Node(ints[nodeASize..]);
+            b = new Node<int>(ints[nodeASize..]);
 
         var result = Solution(a, b);
 
         foreach (var i in ints.OrderBy(x => x))
         {
-            Assert.AreEqual(i, result!.Data);
+            Assert.AreEqual(i, result!.Value);
             result = result.Next;
         }
     }

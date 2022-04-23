@@ -27,4 +27,5 @@ public class P1_IsPrime
     }
 
     #endregion
+
 }

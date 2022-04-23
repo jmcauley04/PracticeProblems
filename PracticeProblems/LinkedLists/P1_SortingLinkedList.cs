@@ -9,35 +9,12 @@ public class P1_SortingLinkedList
 
     #region Solution
 
-    public class Node
-    {
-        public Node(int data)
-        {
-            Data = data;
-        }
-
-        public Node(params int[] ints)
-        {
-            var current = this;
-            current.Data = ints[0];
-
-            for (int i = 1; i < ints.Length; i++)
-            {
-                current.Next = new Node(ints[i]);
-                current = current.Next;
-            }
-        }
-
-        public int Data;
-        public Node? Next;
-    }
-
     /// <summary>
     /// n is the len(a) + len(b)
     /// <br />Time: O(n)
     /// <br />Space: O(1)
     /// </summary>
-    public static Node? Solution(Node? a, Node? b)
+    public static Node<int>? Solution(Node<int>? a, Node<int>? b)
     {
         // check for nulls
         if (a == null)
@@ -47,10 +24,10 @@ public class P1_SortingLinkedList
             return a;
 
         // initialize the head and tail
-        Node head;
-        Node? tail;
+        Node<int> head;
+        Node<int>? tail;
 
-        if (a.Data < b.Data)
+        if (a.Value < b.Value)
         {
             head = tail = a;
             a = a.Next;
@@ -64,7 +41,7 @@ public class P1_SortingLinkedList
         // iterate through the options
         while (a != null || b != null)
         {
-            if (b == null || (a!.Data < b.Data))
+            if (b == null || (a!.Value < b.Value))
             {
                 tail!.Next = a;
                 a = a!.Next;

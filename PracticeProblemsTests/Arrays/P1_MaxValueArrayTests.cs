@@ -1,8 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PracticeProblems.Arrays;
 using System.Linq;
 
-namespace SolutionTests.Arrays.Tests;
+namespace PracticeProblems.Arrays.Tests;
 
 [TestClass()]
 public class P1_MaxValueArrayTests
