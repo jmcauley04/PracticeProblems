@@ -6,10 +6,7 @@
 /// </summary>
 public class P1_SortingLinkedList
 {
-    public static Node? MergeSort(Node? a, Node? b)
-    {
-        return null;
-    }
+
 
     #region Solution
 
@@ -35,7 +32,6 @@ public class P1_SortingLinkedList
         public int Data;
         public Node? Next;
     }
-
 
     public static Node? Solution(Node? a, Node? b)
     {
