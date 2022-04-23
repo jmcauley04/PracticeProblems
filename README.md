@@ -21,6 +21,9 @@ O(n^x) - x complexity; for every element in the problem, the complexity increase
 
 ## Planned Problems
 
+### Array and String
+See source [structy]...
+
 ### Linked Lists
 - Write a function, getNodeValue, that takes in the head of a linked list and an index. The function should return the value of the linked list at the specified index.
 - Write a function, reverseList, that takes in the head of a linked list as an argument. The function should reverse the order of the nodes in the linked list in-place and return the new head of the reversed linked list.
@@ -29,5 +32,23 @@ O(n^x) - x complexity; for every element in the problem, the complexity increase
 	- You may assume that both input lists are non-empty.
 - Merge lists, is univalue list, longest streak, remove node, insert node, create linked list, add lists
 
-### Source:
-(structy)[https://structy.net/problems/zipper-lists/problem-index]
+### Binary Tree
+See source [structy]...
+
+### Graph
+See source [structy]...
+
+### Dynamic Programming
+See source [structy]...
+
+### Stack
+See source [structy]...
+
+### Exhaustive Recursion
+See source [structy]...
+
+### Mixed Recall
+See source [structy]...
+
+## Sources:
+[structy](https://structy.net/problems/zipper-lists/problem-index)
