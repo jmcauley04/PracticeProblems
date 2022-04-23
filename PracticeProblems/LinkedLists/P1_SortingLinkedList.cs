@@ -1,7 +1,18 @@
-﻿namespace PracticeProblems.Sorting;
+﻿namespace PracticeProblems.LinkedLists;
 
-public static class P1_SortingLinkedList
+/// <summary>
+/// Write a method that when given two linked lists will return the head of a linked list such that all original data is represented
+/// and the next node is greater than or equal to the previous node.
+/// </summary>
+public class P1_SortingLinkedList
 {
+    public static Node? MergeSort(Node? a, Node? b)
+    {
+        return null;
+    }
+
+    #region Solution
+
     public class Node
     {
         public Node(int data)
@@ -25,11 +36,8 @@ public static class P1_SortingLinkedList
         public Node? Next;
     }
 
-    /// <summary>
-    /// Write a method that when given two linked lists will return the head of a linked list such that all original data is represented
-    /// and the next node is greater than or equal to the previous node.
-    /// </summary>
-    public static Node? MergeSort(Node? a, Node? b)
+
+    public static Node? Solution(Node? a, Node? b)
     {
         // check for nulls
         if (a == null)
@@ -73,4 +81,5 @@ public static class P1_SortingLinkedList
         return head;
     }
 
+    #endregion
 }
