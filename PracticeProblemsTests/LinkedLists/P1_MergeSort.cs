@@ -1,14 +1,15 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
-using static PracticeProblems.LinkedLists.P1_SortingLinkedList;
+using static PracticeProblems.LinkedLists.P1_MergeSort;
 
 namespace PracticeProblems.LinkedLists.Tests;
 
 [TestClass]
-public class P1_SortingLinkedListTests
+public class P1_MergeSort
 {
     [TestMethod()]
     [DataRow(3, 3, 10, 20, 1, 5, 7)]
+    [DataRow(3, 3, 7, 10, 1, 5, 20)]
     [DataRow(0)]
     [DataRow(0, 1)]
     [DataRow(1, 1)]

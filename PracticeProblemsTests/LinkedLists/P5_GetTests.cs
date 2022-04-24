@@ -3,7 +3,7 @@
 namespace PracticeProblems.LinkedLists.Tests
 {
     [TestClass()]
-    public class P5_GetLinkedListTests
+    public class P5_GetTests
     {
         [TestMethod()]
         [DataRow(5, null, 1, 2, 3)]
@@ -14,7 +14,7 @@ namespace PracticeProblems.LinkedLists.Tests
         {
             var node = ints.Length > 0 ? new Node<int>(ints) : null;
 
-            Assert.AreEqual(expectedValue, P5_GetLinkedList.Solution(node, index)?.Value);
+            Assert.AreEqual(expectedValue, P5_Get.Solution(node, index)?.Value);
         }
     }
 }

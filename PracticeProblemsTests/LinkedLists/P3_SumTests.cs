@@ -4,7 +4,7 @@ using System.Linq;
 namespace PracticeProblems.LinkedLists.Tests
 {
     [TestClass()]
-    public class P3_SumLinkedListTests
+    public class P3_SumTests
     {
         [TestMethod()]
         [DataRow(4, 5, 20, 30)]
@@ -16,7 +16,7 @@ namespace PracticeProblems.LinkedLists.Tests
             var node = ints.Length == 0 ? null : new Node<int>(ints);
 
             var expected = ints.Sum();
-            var actual = P3_SumLinkedList.Solution(node);
+            var actual = P3_Sum.Solution(node);
 
             Assert.AreEqual(expected, actual);
         }

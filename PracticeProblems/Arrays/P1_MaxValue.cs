@@ -4,7 +4,7 @@
 /// Write a function, maxValue, that takes in array of numbers as an argument. 
 /// The function should return the largest number in the array.
 /// </summary>
-public class P1_MaxValueArray
+public class P1_MaxValue
 {
 
     #region Solution

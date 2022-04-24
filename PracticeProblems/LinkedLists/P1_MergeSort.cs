@@ -1,10 +1,10 @@
 ﻿namespace PracticeProblems.LinkedLists;
 
 /// <summary>
-/// Write a method that when given two linked lists will return the head of a linked list such that all original data is represented
+/// Write a method that when given two sorted linked lists will return the head of a linked list such that all original data is represented
 /// and the next node is greater than or equal to the previous node.
 /// </summary>
-public class P1_SortingLinkedList
+public class P1_MergeSort
 {
 
     #region Solution
@@ -41,7 +41,7 @@ public class P1_SortingLinkedList
         // iterate through the options
         while (a != null || b != null)
         {
-            if (b == null || (a!.Value < b.Value))
+            if (b == null || (a != null && a!.Value < b.Value))
             {
                 tail!.Next = a;
                 a = a!.Next;
