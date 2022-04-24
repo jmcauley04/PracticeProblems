@@ -1,12 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Linq;
-using static PracticeProblems.LinkedLists.P2_ReturningValues;
+using static PracticeProblems.LinkedLists.P02_ReturningValues;
 
 namespace PracticeProblems.LinkedLists.Tests
 {
     [TestClass()]
-    public class P2_ReturningValuesTests
+    public class P02_ReturningValuesTests
     {
         [TestMethod()]
         [DataRow(2)]

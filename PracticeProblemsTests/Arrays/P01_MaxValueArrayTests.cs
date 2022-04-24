@@ -4,7 +4,7 @@ using System.Linq;
 namespace PracticeProblems.Arrays.Tests;
 
 [TestClass()]
-public class P1_MaxValueArrayTests
+public class P01_MaxValueArrayTests
 {
     [TestMethod()]
     [DataRow(0)]
@@ -13,6 +13,6 @@ public class P1_MaxValueArrayTests
     [DataRow(9, 8, 7, 6, 5, 4, 3)]
     public void SolutionTest(params int[] ints)
     {
-        Assert.AreEqual(ints.Max(), P1_MaxValue.Solution(ints));
+        Assert.AreEqual(ints.Max(), P01_MaxValue.Solution(ints));
     }
 }

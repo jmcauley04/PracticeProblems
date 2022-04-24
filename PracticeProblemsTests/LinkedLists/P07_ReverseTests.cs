@@ -3,7 +3,7 @@
 namespace PracticeProblems.LinkedLists.Tests
 {
     [TestClass()]
-    public class P7_ReverseTests
+    public class P07_ReverseTests
     {
         [TestMethod()]
         [DataRow(1, 2, 3, 4, 5, 5, 4, 3, 2, 1)]
@@ -15,7 +15,7 @@ namespace PracticeProblems.LinkedLists.Tests
             var node = new Node<int>(ints[..size]);
             var expected = new Node<int>(ints[size..]);
 
-            node = P7_Reverse.Solution(node);
+            node = P07_Reverse.Solution(node);
             for (int i = 0; i < size; i++)
             {
                 Assert.AreEqual(expected?.Value, ints[size + i]);
@@ -30,7 +30,7 @@ namespace PracticeProblems.LinkedLists.Tests
         {
             Node<int>? node = null;
 
-            node = P7_Reverse.Solution(node);
+            node = P07_Reverse.Solution(node);
 
             Assert.IsNull(node);
         }

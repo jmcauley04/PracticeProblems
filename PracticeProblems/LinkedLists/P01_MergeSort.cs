@@ -4,7 +4,7 @@
 /// Write a method that when given two sorted linked lists will return the head of a linked list such that all original data is represented
 /// and the next node is greater than or equal to the previous node.
 /// </summary>
-public class P1_MergeSort
+public class P01_MergeSort
 {
 
     #region Solution

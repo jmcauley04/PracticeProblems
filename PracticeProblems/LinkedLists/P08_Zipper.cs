@@ -5,7 +5,7 @@
 ///	<br /> Do this in-place, by mutating the original Nodes.
 ///	<br /> You may assume that both input lists are non-empty.
 /// </summary>
-public class P8_Zipper
+public class P08_Zipper
 {
     #region Solution
 

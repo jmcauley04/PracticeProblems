@@ -4,7 +4,7 @@
 /// Write a function that takes in the head of a linked list as an argument. 
 /// The function should return a collection containing all values of the nodes in the linked list.
 /// </summary>
-public class P2_ReturningValues
+public class P02_ReturningValues
 {
 
     #region Solution

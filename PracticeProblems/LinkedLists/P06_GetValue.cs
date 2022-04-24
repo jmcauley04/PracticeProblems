@@ -4,7 +4,7 @@
 /// Write a function that takes in the head of a linked list and an index. 
 /// The function should return the value of the linked list at the specified index.
 /// </summary>
-public class P6_GetValue
+public class P06_GetValue
 {
 
     #region Solution

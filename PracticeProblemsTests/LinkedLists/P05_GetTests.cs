@@ -3,18 +3,18 @@
 namespace PracticeProblems.LinkedLists.Tests
 {
     [TestClass()]
-    public class P6_GetValueTests
+    public class P05_GetTests
     {
         [TestMethod()]
         [DataRow(5, null, 1, 2, 3)]
         [DataRow(2, 3, 1, 2, 3)]
         [DataRow(0, 1, 1, 2, 3)]
         [DataRow(1, 2, 1, 2, 3)]
-        public void SolutionTest(int index, int? expectedValue, params int?[] ints)
+        public void SolutionTest(int index, int? expectedValue, params int[] ints)
         {
-            var node = ints.Length > 0 ? new Node<int?>(ints) : null;
+            var node = ints.Length > 0 ? new Node<int>(ints) : null;
 
-            Assert.AreEqual(expectedValue, P6_GetValue.Solution(node, index));
+            Assert.AreEqual(expectedValue, P05_Get.Solution(node, index)?.Value);
         }
     }
 }

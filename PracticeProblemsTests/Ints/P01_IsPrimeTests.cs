@@ -3,7 +3,7 @@
 namespace PracticeProblems.Ints.Tests
 {
     [TestClass()]
-    public class P1_IsPrimeTests
+    public class P01_IsPrimeTests
     {
         [TestMethod()]
         [DataRow(-1, false)]
@@ -19,7 +19,7 @@ namespace PracticeProblems.Ints.Tests
         [DataRow(17, true)]
         public void IsPrimeTest(int n, bool expected)
         {
-            Assert.AreEqual(expected, P1_IsPrime.IsPrime(n));
+            Assert.AreEqual(expected, P01_IsPrime.IsPrime(n));
         }
     }
 }

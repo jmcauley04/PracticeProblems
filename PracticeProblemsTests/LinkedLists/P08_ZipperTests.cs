@@ -3,7 +3,7 @@
 namespace PracticeProblems.LinkedLists.Tests
 {
     [TestClass()]
-    public class P8_ZipperTests
+    public class P08_ZipperTests
     {
         [TestMethod()]
         [DataRow(
@@ -33,7 +33,7 @@ namespace PracticeProblems.LinkedLists.Tests
             var a = new Node<int>(aInts);
             var b = new Node<int>(bInts);
 
-            var result = P8_Zipper.Solution(a, b);
+            var result = P08_Zipper.Solution(a, b);
 
             for (int i = 0; i < expected.Length; i++)
             {

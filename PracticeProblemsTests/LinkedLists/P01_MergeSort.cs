@@ -1,11 +1,11 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
-using static PracticeProblems.LinkedLists.P1_MergeSort;
+using static PracticeProblems.LinkedLists.P01_MergeSort;
 
 namespace PracticeProblems.LinkedLists.Tests;
 
 [TestClass]
-public class P1_MergeSort
+public class P01_MergeSort
 {
     [TestMethod()]
     [DataRow(3, 3, 10, 20, 1, 5, 7)]

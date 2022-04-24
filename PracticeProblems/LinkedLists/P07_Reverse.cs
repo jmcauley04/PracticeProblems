@@ -4,7 +4,7 @@
 /// Write a function that takes in the head of a linked list as an argument. 
 /// The function should reverse the order of the nodes in the linked list in-place and return the new head of the reversed linked list.
 /// </summary>
-public class P7_Reverse
+public class P07_Reverse
 {
     #region Solution
 
