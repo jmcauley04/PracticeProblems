@@ -36,25 +36,25 @@ This project is just for reference - a list of problems for practice.
 - Pair product - Write a function that takes an array of distinct elements and a number and returns a boolean representing whether the array contains a pair whose product is the number.
 
 <ul>
-<li>
-<p>
-  You're given an array of positive integers representing the prices of a single stock on
-  various days (each index in the array represents a different day). You're also
-  given an integer <span>k</span>, which represents the number of transactions
-  you're allowed to make. One transaction consists of buying the stock on a
-  given day and selling it on another, later day.
-</p>
-<p>
-  Write a function that returns the maximum profit that you can make by buying
-  and selling the stock, given k transactions.
-</p>
-<p>
-  Note that you can only hold one share of the stock at a time; in other words,
-  you can't buy more than one share of the stock on any given day, and you can't
-  buy a share of the stock if you're still holding another share. Also, you
-  don't need to use all k transactions that you're allowed.
-</p>
-</li>
+	<li>
+		<p>
+		  You're given an array of positive integers representing the prices of a single stock on
+		  various days (each index in the array represents a different day). You're also
+		  given an integer <span>k</span>, which represents the number of transactions
+		  you're allowed to make. One transaction consists of buying the stock on a
+		  given day and selling it on another, later day.
+		</p>
+		<p>
+		  Write a function that returns the maximum profit that you can make by buying
+		  and selling the stock, given k transactions.
+		</p>
+		<p>
+		  Note that you can only hold one share of the stock at a time; in other words,
+		  you can't buy more than one share of the stock on any given day, and you can't
+		  buy a share of the stock if you're still holding another share. Also, you
+		  don't need to use all k transactions that you're allowed.
+		</p>
+	</li>
 </ul>
 
 ### Linked Lists
@@ -115,3 +115,4 @@ See source [structy]...
 ## Sources:
 
 - [structy](https://structy.net/problems/zipper-lists/problem-index)
+- [AlgoExpert](https://www.algoexpert.io/)
