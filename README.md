@@ -24,10 +24,6 @@ This project is just for reference - a list of problems for practice.
 
 ### Array and String
 
-- You're given a two-dimensional array (a matrix) of potentially unequal height and width containing only 0s and 1s. Each 0 represents land, and each 1 represents part of a
-  river. A river consists of any number of 1s that are either horizontally or vertically adjacent (but not diagonally adjacent). The number of adjacent 1s forming a river determine its size.
-	- Note that a river can twist. In other words, it doesn't have to be a straight vertical line or a straight horizontal line; it can be L-shaped, for example.
-	- Write a function that returns an array of the sizes of all rivers represented in the input matrix. The sizes don't need to be in any particular order.
 - Anagrams - Write a function that takes two strings and returns a boolean representing whether the two strings are anagrams of each other.  
 	- An anagram of a string is another string that matches the first string in all ways except order of characters.
 - Most frequent char - Write a function that takes a string and returns the most frequent char found in the string.
