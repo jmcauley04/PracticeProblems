@@ -13,7 +13,7 @@ public class P01_MergeSortTests
     [DataRow(0, 1)]
     [DataRow(1, 1)]
     [DataRow(3, 3, 3, 13, 1, 3, 7)]
-    public void SolutionTests(int nodeASize, params int[] ints)
+    public void SolutionTest(int nodeASize, params int[] ints)
     {
         Node<int>? a = null;
         Node<int>? b = null;
