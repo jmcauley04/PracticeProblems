@@ -8,6 +8,7 @@
 /// </summary>
 public class P05_LongestRiver
 {
+
     #region Solution
 
     // find a water that isn't already explored
@@ -91,4 +92,5 @@ public class P05_LongestRiver
     }
 
     #endregion
+
 }

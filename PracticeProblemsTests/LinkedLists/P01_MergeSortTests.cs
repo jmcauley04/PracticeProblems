@@ -1,11 +1,10 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
-using static PracticeProblems.LinkedLists.P01_MergeSort;
 
 namespace PracticeProblems.LinkedLists.Tests;
 
 [TestClass]
-public class P01_MergeSort
+public class P01_MergeSortTests
 {
     [TestMethod()]
     [DataRow(3, 3, 10, 20, 1, 5, 7)]
@@ -25,7 +24,7 @@ public class P01_MergeSort
         if (ints.Length - nodeASize > 0)
             b = new Node<int>(ints[nodeASize..]);
 
-        var result = Solution(a, b);
+        var result = P01_MergeSort.Solution(a, b);
 
         foreach (var i in ints.OrderBy(x => x))
         {

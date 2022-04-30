@@ -6,6 +6,7 @@
 /// </summary>
 public class P06_SmallestIsland
 {
+
     #region Solution
 
     public static int? Solution(int[,] matrix)
@@ -69,4 +70,5 @@ public class P06_SmallestIsland
     }
 
     #endregion
+
 }
